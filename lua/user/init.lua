@@ -26,7 +26,8 @@ local config = {
         },
 
         -- Set colorscheme to use
-        colorscheme = "dracula",
+        colorscheme = "onedark",
+        -- colorscheme_bg = "dark",
 
         -- Add highlight groups in any theme
         highlights = {
@@ -223,13 +224,8 @@ local config = {
                         -- You can also add new plugins here as well:
                         -- Add plugins, the packer syntax without the "use"
                         { "Mofiqul/dracula.nvim" },
-                        -- {
-                        --   "ray-x/lsp_signature.nvim",
-                        --   event = "BufRead",
-                        --   config = function()
-                        --     require("lsp_signature").setup()
-                        --   end,
-                        -- },
+                        { "joshdick/onedark.vim" },
+                        { "tanvirtin/monokai.nvim" },
 
                         -- We also support a key value style plugin definition similar to NvChad:
                         -- ["ray-x/lsp_signature.nvim"] = {
